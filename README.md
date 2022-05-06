@@ -1,9 +1,9 @@
 # Cars-Prices
 - Used Exploratory data analysis (EDA) on Cars Prices Dataset 
 - Performed EDA Steps like
-  1. Check Non Numeric column in the dataset
-  2. Convert the Non Numeric value to NAN (np.replace)
-  3. Convert NAN to float value (.astype)
-  4. Check the NULL VALUE Percentage, It should be less than 50% to make necessary changes
-  5. Find the mean of the column (.mean)
-  6. Fill the NAN value with the mean value (.fillna)
+  1. Check Null values
+  2. Handle Outliers
+  3. Handling Categorical Data
+  4. Handling skewness on contienous numerical value
+  5. Feature Engineering
+  6. Scaling
